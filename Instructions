@@ -1,0 +1,25 @@
+1. Make sure to change database name in which you wnat to store the database
+from config/mongodbconfig.js
+
+2. URL's
+  http://localhost:3000/api/authenticate/register
+  payload
+  {
+      "email":" testing@gmail.com",
+      "password":"12345 "
+  }
+  http://localhost:3000/api/authenticate/login
+  payload
+  {
+      "email":" testing@gmail.com",
+      "password":"12345 "
+  }
+  http://localhost:3000/api/authenticate/addExpense
+   payload
+  {
+      "email":" testing@gmail.com",
+      "password":"12345 ",
+      "amount":"67",
+      "productName":"car"
+  }
+  http://localhost:3000/api/authenticate/sort
