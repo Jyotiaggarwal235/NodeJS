@@ -23,3 +23,4 @@ from config/mongodbconfig.js
       "productName":"car"
   }
   http://localhost:3000/api/authenticate/sort
+  No Payload Required
